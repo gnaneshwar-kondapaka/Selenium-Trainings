@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="165207" started-at="2020-08-26T10:38:51 IST" finished-at="2020-08-26T10:41:36 IST">
+    <groups>
+    </groups>
+    <test name="TestUserRegstration" duration-ms="93150" started-at="2020-08-26T10:38:51 IST" finished-at="2020-08-26T10:40:24 IST">
+      <class name="TestCases.TestUserRegistration">
+        <test-method status="PASS" signature="testUserRegistration()[pri:0, instance:TestCases.TestUserRegistration@1b68ddbd]" name="testUserRegistration" duration-ms="93098" started-at="2020-08-26T10:38:51 IST" finished-at="2020-08-26T10:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+      </class> <!-- TestCases.TestUserRegistration -->
+    </test> <!-- TestUserRegstration -->
+    <test name="TestDeleteEmp" duration-ms="9155" started-at="2020-08-26T10:40:24 IST" finished-at="2020-08-26T10:40:34 IST">
+      <class name="TestCases.DeleteEmployee">
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:TestCases.DeleteEmployee@467aecef]" name="deleteEmployee" duration-ms="9149" started-at="2020-08-26T10:40:24 IST" finished-at="2020-08-26T10:40:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+      </class> <!-- TestCases.DeleteEmployee -->
+    </test> <!-- TestDeleteEmp -->
+    <test name="TestReportFilter" duration-ms="62793" started-at="2020-08-26T10:40:34 IST" finished-at="2020-08-26T10:41:36 IST">
+      <class name="TestCases.ReportFilter">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:TestCases.ReportFilter@1a8a8f7c]" name="lauchBrowser" is-config="true" duration-ms="6813" started-at="2020-08-26T10:38:44 IST" finished-at="2020-08-26T10:38:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method status="PASS" signature="testReportFilter()[pri:0, instance:TestCases.ReportFilter@1a8a8f7c]" name="testReportFilter" duration-ms="62783" started-at="2020-08-26T10:40:34 IST" finished-at="2020-08-26T10:41:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportFilter -->
+        <test-method status="PASS" signature="tearUP()[pri:0, instance:TestCases.ReportFilter@1a8a8f7c]" name="tearUP" is-config="true" duration-ms="1742" started-at="2020-08-26T10:41:36 IST" finished-at="2020-08-26T10:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUP -->
+      </class> <!-- TestCases.ReportFilter -->
+    </test> <!-- TestReportFilter -->
+  </suite> <!-- Suite -->
+</testng-results>

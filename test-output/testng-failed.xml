@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Listeners.ListenersClass"/>
+  </listeners>
+  <test thread-count="5" name="TestUserRegstration(failed)">
+    <classes>
+      <class name="TestCases.TestUserRegistration">
+        <methods>
+          <include name="lauchBrowser"/>
+          <include name="tearUP"/>
+          <include name="testUserRegistration"/>
+        </methods>
+      </class> <!-- TestCases.TestUserRegistration -->
+    </classes>
+  </test> <!-- TestUserRegstration(failed) -->
+</suite> <!-- Failed suite [Suite] -->

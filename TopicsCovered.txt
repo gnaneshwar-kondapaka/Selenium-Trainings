@@ -1,0 +1,6 @@
+Page Object Model.
+Implement POM.
+Framework Structure.
+Extent reporting.
+Integrating Extent reports with our Framework.
+Implementing Asserts and failing scripts with meaningful messages.
